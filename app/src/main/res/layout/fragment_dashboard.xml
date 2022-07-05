@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".gui.admin.DashboardFragment">
+
+    <LinearLayout
+        android:background="#F3F3F3"
+        android:padding="20px"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:drawableTop="@mipmap/order_70"
+                android:id="@+id/btnDonHang"
+                android:layout_marginRight="5dp"
+                android:text="Đơn hàng"
+                app:backgroundTint="@null"
+                android:background="@color/btn_admin"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"/>
+            <Button
+                android:drawableTop="@mipmap/order_70_danhan"
+                android:id="@+id/btnDonHangDaNhan"
+                android:layout_marginLeft="5dp"
+                android:text="Đã nhận"
+                app:backgroundTint="@null"
+                android:background="@color/btn_admin"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:drawableTop="@mipmap/order_70_thanhtoan"
+                android:id="@+id/btnDHChoThanhToan"
+                android:text="Đơn hàng chờ thanh toán"
+                app:backgroundTint="@null"
+                android:background="@color/btn_admin"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

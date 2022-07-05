@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".gui.admin.StatisticalFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Thống kê theo ngày"
+                android:enabled="false"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:boxStrokeColor="@color/primary"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@mipmap/calendar_48">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageButton
+                android:id="@+id/btnSelectDate"
+                android:src="@mipmap/date_64"
+                android:layout_marginLeft="10dp"
+                android:background="@color/color_background"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <include
+                android:visibility="gone"
+                android:id="@+id/loading"
+                layout="@layout/loading"/>
+            <include
+                android:visibility="gone"
+                android:id="@+id/emptyCart"
+                layout="@layout/layout_cart_empty"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <include
+        android:id="@+id/bottom_sheet"
+        layout="@layout/statistical_bottom_sheet"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

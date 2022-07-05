@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnHome"
+        android:icon="@mipmap/home_48"
+        android:enabled="true"
+        android:title="Trang chủ"/>
+    <item android:id="@+id/mnProduct"
+        android:icon="@mipmap/coffee_72"
+        android:enabled="true"
+        android:title="Đặt hàng"/>
+    <item
+        android:id="@+id/mnHeart"
+        android:enabled="true"
+
+        android:icon="@mipmap/heart_50"
+        android:title="Yêu thích"/>
+    <item
+        android:id="@+id/mnNotification"
+        android:icon="@mipmap/notification_48"
+        android:title="Thông báo"/>
+    <item
+        android:id="@+id/mnMy"
+        android:icon="@mipmap/account_48"
+        android:title="Tài khoản"/>
+</menu>

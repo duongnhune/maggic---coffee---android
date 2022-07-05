@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".gui.login.LoginActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/app_name"
+        android:text="Magic Coffee"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Kính chào quý khách"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtPhoneNumberLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginHorizontal="10dp"
+        android:hint="Số điện thoại"
+        app:endIconMode="clear_text"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:startIconDrawable="@mipmap/phone_36px">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLoginPhone"
+        android:layout_marginTop="15dp"
+        android:paddingVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/custom_button_selector"
+        android:backgroundTint="@color/primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập" />
+
+        <LinearLayout
+            android:layout_marginVertical="40dp"
+            android:paddingHorizontal="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <Button
+                android:backgroundTint="@color/color_border"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="2px"/>
+            <TextView
+                android:text="Hoặc"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="10dp"
+                android:backgroundTint="@color/color_border"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_weight="1"
+                android:backgroundTint="@color/color_border"
+                android:layout_width="match_parent"
+                android:layout_height="2px"/>
+
+        </LinearLayout>
+
+    <Button
+        android:drawableLeft="@mipmap/google_48"
+        android:id="@+id/btnLoginGoogle"
+        app:backgroundTint="@null"
+        android:paddingVertical="5dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="@color/color_text"
+        android:background="@drawable/custom_button_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="Tiếp tục với google" />
+
+    <Button
+        android:id="@+id/btnLoginFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button_selector"
+        android:backgroundTint="#3b5999"
+        android:drawableLeft="@mipmap/facebook_48"
+        android:paddingVertical="5dp"
+        android:text="Tiếp tục với Facebook"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dành cho nhân viên" />
+</LinearLayout>
+    <include
+        android:visibility="gone"
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/loading0_5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_background"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    tools:context=".gui.HistoryActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginLeft="-10dp"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_marginLeft="-10dp"
+                    android:id="@+id/btnBack"
+                    android:layout_gravity="center"
+                    android:background="@null"
+                    app:backgroundTint="@null"
+                    android:src="@mipmap/back_56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"/>
+                <TextView
+                    android:paddingVertical="15dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:text="Lịch sử đơn hàng"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:paddingTop="10dp"
+                    android:id="@+id/llCurrent"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Đơn hàng hiện tại"
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/rcvCurrentOrder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="10dp"
+                    android:id="@+id/llHistory"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lịch sử đơn hàng"
+                        android:layout_marginHorizontal="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/rcvOrderHistory"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <include
+            android:id="@+id/empty"
+            layout="@layout/layout_cart_empty"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

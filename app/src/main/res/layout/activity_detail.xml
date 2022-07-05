@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ctLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gui.DetailActivity">
+    <ImageView
+        android:id="@+id/imgAv"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/av2"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"/>
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp">
+
+            <ImageButton
+                android:id="@+id/imgBtnBack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#4FCFCFCF"
+                android:background="@drawable/custom_button_toolbar"
+                android:src="@mipmap/back_56" />
+
+            <ImageButton
+                android:id="@+id/imgBtnCart"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#4FCFCFCF"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/custom_button_toolbar"
+                android:src="@mipmap/shopping_cart_56" />
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="270dp"
+        android:id="@+id/lLayout"
+        android:orientation="vertical"
+        android:background="@drawable/custom_border_layout_rd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+            <ScrollView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:paddingBottom="15dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_background"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:padding="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/txtName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:text="Phin sữa đá"
+                                    android:textColor="@color/black"
+                                    android:textSize="22dp"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_centerVertical="true"
+                                    android:src="@mipmap/heart_40" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/txtPrice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="49.000đ"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginVertical="10dp"
+                                android:text="Lưu ý: Mỗi size và nóng lạnh sẽ có giá tiền khác nhau"
+                                android:textColor="@color/black"
+                                android:textSize="14dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:padding="15dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <com.facebook.share.widget.ShareButton
+                                android:id="@+id/fb_share_button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:padding="15dp"
+
+                            android:background="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Size"
+                                android:textColor="@color/black"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginVertical="5dp"
+                                android:text="Chọn 1 loại size"
+                                android:textColor="@color/black"
+                                android:textSize="14dp" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/custom_border_bottom"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/btnS"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Nhỏ"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/custom_border_bottom"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/btnM"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Vừa"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/btnL"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lớn"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:padding="15dp"
+                            android:background="@color/white"
+                            android:id="@+id/llLayout_loai"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Loại"
+                                android:textColor="@color/black"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginVertical="5dp"
+                                android:text="Chọn 1 loại"
+                                android:textColor="@color/black"
+                                android:textSize="14dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/custom_border_bottom"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/btnLanh"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Đá"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/btnNong"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Nóng"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btnExcept"
+                    android:background="@color/no_color"
+                    app:backgroundTint="@null"
+                    android:text="-"
+                    android:textColor="@color/black"
+                    android:layout_width="40dp"
+                    android:textSize="22dp"
+                    android:layout_height="50dp"/>
+                <TextView
+                    android:id="@+id/txtQuantity"
+                    android:text="1"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:paddingHorizontal="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/btnPlus"
+                    android:background="@color/no_color"
+                    android:text="+"
+                    android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAddToCart"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="@color/primary"
+                android:paddingVertical="12dp"
+                android:text="Thêm vào giỏ hàng"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gui.login.VerificationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/app_name"
+                android:text="Magic Coffee"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtPhoneNumber3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mã xác nhận được gửi tới số"
+                android:textAlignment="center"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/txtPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="16dp" />
+
+            <com.chaos.view.PinView
+                android:id="@+id/firstPinView"
+                style="@style/PinWidget.PinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="40dp"
+                android:cursorVisible="true"
+                android:inputType="number"
+                android:itemBackground="@color/gray"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:cursorColor="@color/primary"
+                app:cursorWidth="1dp"
+                app:itemCount="6"
+                app:itemHeight="48dp"
+                app:itemSpacing="10dp"
+                app:itemWidth="48dp"
+                app:lineColor="@color/gray"
+                app:lineWidth="2dp"
+                app:viewType="rectangle" />
+
+            <TextView
+                android:id="@+id/txtCountDown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mã xác nhận có hiệu lực trong 60s"
+                android:textAlignment="center"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="@color/primary"
+                android:text="Tiếp theo"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include
+        android:visibility="gone"
+        android:id="@+id/loading"
+        layout="@layout/loading0_5"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

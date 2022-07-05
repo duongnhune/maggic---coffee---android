@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.186" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/border_view.xml" value="0.186" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_border.xml" value="0.2555" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_border_02.xml" value="0.2165" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_border_bottom.xml" value="0.207" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_border_circle.xml" value="0.202" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_border_layout_rd.xml" value="0.11" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_button.xml" value="0.186" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_button_account.xml" value="0.115" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_button_login.xml" value="0.115" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_button_selector.xml" value="0.196" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_button_toolbar.xml" value="0.196" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/custom_toolbar.xml" value="0.196" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.186" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.186" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/ic_menu_camera.xml" value="0.186" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.186" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.186" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/radio_normal.xml" value="0.11" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/radio_selected.xml" value="0.11" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/radio_selector.xml" value="0.11" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/side_nav_bar.xml" value="0.186" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/drawable/text_color.xml" value="0.186" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_abcactivity.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_admin.xml" value="0.21145833333333333" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_barcode.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_cart.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_detail.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_detail_cart.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_drawer.xml" value="0.23233695652173914" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_fingerprint.xml" value="0.213768115942029" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_history.xml" value="0.24003623188405798" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_info.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_login_member.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_login_phone_number.xml" value="0.1" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_main.xml" value="0.24139492753623187" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_maps.xml" value="0.2" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_order.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_search.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_verification.xml" value="0.24139492753623187" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/activity_wellcome.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/add_bottom_sheet.xml" value="0.23233695652173914" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/app_bar_admin.xml" value="0.23233695652173914" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/app_bar_drawer.xml" value="0.23233695652173914" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/cart_bottom_sheet.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/cart_empty.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/content_admin.xml" value="0.21145833333333333" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/content_drawer.xml" value="0.23233695652173914" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/custom_dialog.xml" value="0.4" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_account.xml" value="0.24139492753623187" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_dashboard.xml" value="0.24139492753623187" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_gallery.xml" value="0.23233695652173914" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_heart.xml" value="0.23233695652173914" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_history.xml" value="0.24003623188405798" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_list_order.xml" value="0.20878623188405798" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_notification.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_order_admin.xml" value="0.24818840579710144" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_pay.xml" value="0.24139492753623187" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_product.xml" value="0.2" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/fragment_statistical.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/item_branch.xml" value="0.536" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/item_cart.xml" value="0.4" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/item_click.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/item_coffee.xml" value="0.13513513513513514" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/item_notification.xml" value="0.4" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/item_order.xml" value="0.3333333333333333" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/layout_cart_empty.xml" value="0.24003623188405798" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/layout_order_empty.xml" value="0.24003623188405798" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/loading.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/loading0_5.xml" value="0.23052536231884058" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/map_bottom_sheet.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/nav_header_admin.xml" value="0.24139492753623187" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/nav_header_drawer.xml" value="0.23233695652173914" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/settings_activity.xml" value="0.2477355072463768" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/layout/statistical_bottom_sheet.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/menu/admin.xml" value="0.21145833333333333" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/menu/drawer.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/menu/option_menu_info.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.196" />
+        <entry key="..\:/Workspace/android/android/app/src/main/res/xml/root_preferences.xml" value="0.23233695652173914" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1775" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/custom_border_layout_rd.xml" value="0.1605" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/custom_button.xml" value="0.1735" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/custom_button_account.xml" value="0.1735" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/custom_button_login.xml" value="0.2465" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/custom_button_toolbar.xml" value="0.1775" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/custom_toolbar.xml" value="0.1605" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/radio_normal.xml" value="0.159" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/radio_selected.xml" value="0.156" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/radio_selector.xml" value="0.156" />
+        <entry key="..\:/Workspace/android/app/src/main/res/drawable/text_color.xml" value="0.156" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_cart.xml" value="0.2318840579710145" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_detail.xml" value="0.264" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_drawer.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_fullscreen.xml" value="0.11770833333333333" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_info.xml" value="0.2318840579710145" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_login_member.xml" value="0.2318840579710145" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_login_phone_number.xml" value="0.2318840579710145" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_search.xml" value="0.2318840579710145" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_verification.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/activity_wellcome.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/add_bottom_sheet.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/app_bar_drawer.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/content_drawer.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/custom_dialog.xml" value="0.2418478260869565" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/fragment_account.xml" value="0.2318840579710145" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/fragment_gallery.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/fragment_heart.xml" value="0.2318840579710145" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/fragment_home.xml" value="0.2318840579710145" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/fragment_product.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/fragment_slideshow.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/item_cart.xml" value="0.2477355072463768" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/item_coffee.xml" value="0.2477355072463768" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/layout_header_nav.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/loading.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/nav_header_drawer.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/layout/settings_activity.xml" value="0.24094202898550723" />
+        <entry key="..\:/Workspace/android/app/src/main/res/menu/activity_main_drawer.xml" value="0.24635416666666668" />
+        <entry key="..\:/Workspace/android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/app/src/main/res/menu/drawer.xml" value="0.15520833333333334" />
+        <entry key="..\:/Workspace/android/app/src/main/res/menu/main_menu.xml" value="1.0" />
+        <entry key="..\:/Workspace/android/app/src/main/res/menu/option_menu_info.xml" value="0.25" />
+        <entry key="..\:/Workspace/android/app/src/main/res/xml/root_preferences.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

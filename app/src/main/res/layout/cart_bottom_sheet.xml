@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="60dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    >
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_marginBottom="10dp"
+            app:backgroundTint="@null"
+            android:background="@color/primary"
+            android:layout_width="50dp"
+            android:layout_height="6dp"/>
+        <TextView
+            android:text="Chi tiết"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Số lượng:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtSoLuong"
+                    android:text="50 ly"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Tổng tiền:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtTongTien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="500.000 đ"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Thành tiền:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text="500.000 đ"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/llBottomSheet"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnHetHang"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/primary"
+                android:text="Hết hàng"
+                app:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btnNhanDon"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@color/primary"
+                android:text="Nhận Đơn"
+                app:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btnHuyDon"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@color/primary"
+                android:text="Đơn bị hủy"
+                app:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btnThanhToan"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@color/primary"
+                android:text="Thanh toán"
+                app:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btnLamXong"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@color/primary"
+                android:text="Đã làm xong"
+                app:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
